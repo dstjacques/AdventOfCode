@@ -15,7 +15,6 @@ function countIncreases(sequence) {
     let d = 0;
     for (var i = 0; i < commands.length; i++) {
         var parts = commands[i].split(' ');
-        console.log(parts);
         if (parts[0] == 'forward') {
             h += parseInt(parts[1]);
         }
