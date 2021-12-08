@@ -36,6 +36,6 @@ Prop3=19,11
 [InternetShortcut]
 IDList=
 URL=https://adventofcode.com/{0}/day/{1}
-"@ -f $year, $day
+"@ -f $year, $dayNum
 
 $shortcut | Out-File $("$target\{0} Day {1}.url" -f $year, $day)
