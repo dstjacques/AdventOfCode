@@ -1,0 +1,1 @@
+node .\day07_part1.js day07_part1_example.txt
