@@ -1,0 +1,1 @@
+node .\day01_part1.js day01_part1_input.txt
